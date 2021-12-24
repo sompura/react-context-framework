@@ -1,0 +1,90 @@
+// ========================================================================== //
+// @ Fonts
+// ========================================================================== //
+
+$base-font: "Roboto", sans-serif;
+
+// ========================================================================== //
+// @ Colors
+// ========================================================================== //
+
+//http://www.color-blindness.com/color-name-hue/ - Use to name colors
+
+$color-black: #000;
+$color-white: #fff;
+
+// ========================================================================== //
+// @ Common font sizes and padding/margin
+// ========================================================================== //
+
+$base-font-size: 16px;
+
+$spacing-tiny: 5px;
+$spacing-small: 10px;
+$spacing-medium: 20px;
+$spacing-large: 30px;
+$spacing-xlarge: 40px;
+$spacing-xxlarge: 50px;
+
+// ========================================================================== //
+// @ Medai Queries
+// ========================================================================== //
+
+// MEDIA QUERIES
+$tiny-screen: 568px !default;
+$small-screen: 768px !default;
+$medium-screen: 1024px !default;
+$large-screen: 1366px !default;
+
+$screen: "only screen" !default;
+$tiny: "only screen and (min-width: #{$tiny-screen})" !default;
+$small: "only screen and (min-width: #{$small-screen})" !default;
+$medium: "only screen and (min-width:#{$medium-screen})" !default;
+$large: "only screen and (min-width:#{$large-screen})" !default;
+
+// ========================================================================== //
+// @ Common Settings
+// ========================================================================== //
+
+@mixin g_browserPrefix($g_browserPrefixProperty, $g_browserPrefixValue) {
+  @each $g_browserPrefixVendor in ("-webkit-", "-moz-", "-ms-", "-o-", "") {
+    #{$g_browserPrefixVendor}#{$g_browserPrefixProperty}: #{$g_browserPrefixValue};
+  }
+}
+
+@mixin transform($transforms) {
+  -moz-transform: $transforms;
+  -o-transform: $transforms;
+  -ms-transform: $transforms;
+  -webkit-transform: $transforms;
+  transform: $transforms;
+}
+
+// rotate
+@mixin rotate($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+
+// scale
+@mixin scale($scale) {
+  @include transform(scale($scale));
+}
+
+// translate
+@mixin translate($x, $y) {
+  @include transform(translate($x, $y));
+}
+
+// skew
+@mixin skew($x, $y) {
+  @include transform(skew(#{$x}deg, #{$y}deg));
+}
+
+//transform origin
+@mixin transform-origin($origin) {
+  -moz-transform-origin: $origin;
+  -o-transform-origin: $origin;
+  -ms-transform-origin: $origin;
+  -webkit-transform-origin: $origin;
+  transform-origin: $origin;
+}

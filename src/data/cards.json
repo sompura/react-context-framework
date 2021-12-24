@@ -1,0 +1,118 @@
+{
+  "cards": [
+    {
+      "large": true,
+      "image": {
+        "small": "http://placeimg.com/400/400/arch",
+        "small2x": "http://placeimg.com/800/800/arch",
+        "medium": "http://placeimg.com/768/300/arch",
+        "medium2x": "http://placeimg.com/1536/600/arch",
+        "large": "http://placeimg.com/650/450/arch",
+        "large2x": "http://placeimg.com/1300/900/arch",
+        "alt": "Venice"
+      },
+      "tag": "Italy",
+      "subheader": "Venice",
+      "description": "Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale verdeling van",
+      "cta": {
+        "text": "Explore More",
+        "link": "#"
+      }
+    },
+    {
+      "large": false,
+      "image": {
+        "small": "http://placeimg.com/400/400/animal",
+        "small2x": "http://placeimg.com/800/800/animal",
+        "medium": "http://placeimg.com/350/450/animal",
+        "medium2x": "http://placeimg.com/700/900/animal",
+        "large": "http://placeimg.com/350/450/animal",
+        "large2x": "http://placeimg.com/700/900/animal",
+        "alt": "Berlin"
+      },
+      "tag": "Germany",
+      "subheader": "Berlin",
+      "description": "Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale verdeling van",
+      "cta": {
+        "text": "Explore More",
+        "link": "#"
+      }
+    },
+    {
+      "large": false,
+      "image": {
+        "small": "http://placeimg.com/400/400/nature",
+        "small2x": "http://placeimg.com/800/800/nature",
+        "medium": "http://placeimg.com/350/450/nature",
+        "medium2x": "http://placeimg.com/700/900/nature",
+        "large": "http://placeimg.com/350/450/nature",
+        "large2x": "http://placeimg.com/700/900/nature",
+        "alt": "Barcelona"
+      },
+      "tag": "Spain",
+      "subheader": "Barcelona",
+      "description": "Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale verdeling van",
+      "cta": {
+        "text": "Explore More",
+        "link": "#"
+      }
+    },
+    {
+      "large": false,
+      "image": {
+        "small": "http://placeimg.com/400/400/people",
+        "small2x": "http://placeimg.com/800/800/people",
+        "medium": "http://placeimg.com/350/450/people",
+        "medium2x": "http://placeimg.com/700/900/people",
+        "large": "http://placeimg.com/350/450/people",
+        "large2x": "http://placeimg.com/700/900/people",
+        "alt": "Venice"
+      },
+      "tag": "Paris",
+      "subheader": "Paris",
+      "description": "Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale verdeling van",
+      "cta": {
+        "text": "Explore More",
+        "link": "#"
+      }
+    },
+    {
+      "large": false,
+      "image": {
+        "small": "http://placeimg.com/400/400/tech",
+        "small2x": "http://placeimg.com/800/800/tech",
+        "medium": "http://placeimg.com/350/450/tech",
+        "medium2x": "http://placeimg.com/700/900/tech",
+        "large": "http://placeimg.com/350/450/tech",
+        "large2x": "http://placeimg.com/700/900/tech",
+        "alt": "Amsterdam"
+      },
+      "tag": "Netherlands",
+      "subheader": "Amsterdam",
+      "description": "Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale verdeling van",
+      "cta": {
+        "text": "Explore More",
+        "link": "#"
+      }
+    },
+    {
+      "large": true,
+      "image": {
+        "small": "http://placeimg.com/400/400/people",
+        "small2x": "http://placeimg.com/800/800/people",
+        "medium": "http://placeimg.com/768/300/people",
+        "medium2x": "http://placeimg.com/1536/600/people",
+        "large": "http://placeimg.com/650/450/people",
+        "large2x": "http://placeimg.com/1300/900/people",
+        "alt": "London"
+      },
+      "tag": "United Kingdom",
+      "subheader": "London",
+      "description": "Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale verdeling van",
+      "cta": {
+        "text": "Explore More",
+        "link": "#"
+      }
+    }
+  ]
+}

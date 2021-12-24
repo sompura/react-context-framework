@@ -1,0 +1,65 @@
+$container-width: 1280px;
+
+html,
+body {
+  background: $color-white;
+  margin: 0;
+  padding: 0;
+  color: $color-black;
+  font-family: $base-font;
+  font-size: $base-font-size;
+  font-weight: 300;
+
+  strong {
+    font-weight: 700;
+  }
+}
+
+html {
+  overflow-y: scroll;
+}
+
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  outline: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+hr {
+  border-color: $color-white;
+  margin: 12px 0 20px 0;
+  width: 99%;
+}
+
+.wrapper {
+  padding: 1em 1em 0;
+
+  @media #{$small} {
+    padding: 1.5em 1.5em 0.5em;
+  }
+
+  @media #{$large} {
+    padding: 3em 0 2em;
+  }
+}
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+}

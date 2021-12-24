@@ -1,0 +1,73 @@
+@import "../../styles/theme-settings";
+
+.c_intro {
+  &-tag {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+  &-header {
+    h2 {
+      margin: 0.15em 0;
+      padding: 0;
+      font-size: 3.5em;
+      font-weight: 700;
+      letter-spacing: -1px;
+
+      @media #{$small} {
+        font-size: 5em;
+      }
+    }
+  }
+  &-subheader {
+    h3 {
+      margin: 0.15em 0;
+      padding: 0;
+      font-size: 2em;
+      font-weight: 700;
+      text-transform: uppercase;
+
+      @media #{$medium} {
+        font-size: 1.8em;
+      }
+
+      @media #{$large} {
+        font-size: 2em;
+      }
+    }
+  }
+  &-description {
+    p {
+      margin: 0;
+      padding: 0;
+      font-size: 1em;
+      line-height: 1.2em;
+
+      @media #{$small} {
+        font-size: 1.2em;
+      }
+    }
+  }
+  &-cta {
+    a {
+      margin: 0;
+      padding: 0;
+      font-size: 1em;
+      line-height: 1em;
+      padding: 0.75em 2em;
+      font-weight: 700;
+      text-decoration: none;
+      border: 1px solid $color-white;
+      border-radius: 6px;
+      color: $color-white;
+      display: inline-block;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: $color-white;
+        color: rgba($color-black, 0.7);
+      }
+    }
+  }
+}
